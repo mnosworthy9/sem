@@ -1,1 +1,6 @@
 language: java
+install: mvn install
+script:
+- mvn install
+jdk:
+- oraclejdk8
